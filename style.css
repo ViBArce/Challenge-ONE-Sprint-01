@@ -1,0 +1,97 @@
+*{
+    background: #F3F5Fc;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 150%;
+    overflow: hidden;
+    
+}
+header{
+    display: flex;
+}
+.logo{
+    padding-top: 1.5em;
+    margin-left: 1em; 
+    width: 10%;
+}
+main{
+    display: flex;
+    margin-bottom: 5em;
+    margin-left: 5em;
+    width: 100%;
+    height: auto;
+}
+.text-area{
+    border: none;
+    color: #0a3871;
+    text-transform: lowercase;
+    width: 15em;
+    height: auto;
+    resize: none;
+}
+.mensaje{
+    background-color: #ffffff;
+    background-image: url("Recursos/Muneco2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border: none;
+    border-radius: 2em;
+    color: #0a3871;
+    margin-left: 3em;
+    padding-left: em;
+    position: fixed;
+    width: 15em;
+    height: auto;
+    resize: none;
+    box-shadow: 1em 1em .5em #888888;
+}
+.mensaje:focus{
+    outline: none;
+}
+::placeholder{ 
+    color: #0a3871; 
+}
+.text-area:focus{
+    outline:none
+}
+.botones{
+    display: flex;
+    margin: auto;
+}
+.btn-encriptar{
+    background-color: #0a3871;
+    border: 1px solid darkblue;
+    border-radius: 2em;
+    color: #d8dfe8;
+    cursor: pointer;
+    height: auto;
+    margin-left: 1em;
+    width: 50%;
+}
+.btn-desencriptar{
+    background-color: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 2em;
+    color: darkblue;
+    cursor: pointer;
+    height: auto;
+    margin-left: .5em;
+    width: 50%;
+}
+.copiar{
+    position: absolute;
+    margin-top: 17em;
+    margin-left: 5em;
+}
+.bnt-copiar{
+    background-color: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 2em;
+    color: darkblue;
+    cursor: pointer;
+    height: auto;
+    margin-left: 0em;
+    width: 10em;
+}
