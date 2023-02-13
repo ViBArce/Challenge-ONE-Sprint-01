@@ -51,6 +51,16 @@ main{
     height: 13em;
     resize: none;
 }
+.marcomensaje{
+    background-color: #ffffff;
+    border-radius: 2em;
+    margin-left: 3em;
+    padding-left: em;
+    position: fixed;
+    width: 15em;
+    height: 14em;
+    box-shadow: 1em 1em .5em #888888;
+}
 .mensaje{
     background-color: #ffffff;
     background-image: url("Recursos/Muneco2.png");
@@ -58,15 +68,15 @@ main{
     background-position: center;
     background-size: 50%;
     border: none;
-    border-radius: 2em;
     color: #0a3871;
-    margin-left: 3em;
-    padding-left: em;
+    margin-top: 1em;
+    margin-left: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
     position: fixed;
-    width: 15em;
-    height: 13em;
+    width: 12em;
+    height: 10em;
     resize: none;
-    box-shadow: 1em 1em .5em #888888;
 }
 .mensaje:focus{
     outline: none;
