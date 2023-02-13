@@ -42,3 +42,9 @@ function desencriptar(stringDesencriptado){
     }
     return stringDesencriptado
 }
+textArea.addEventListener("input", function(){
+    if (textArea.value.toUpperCase() === textArea.value){
+        alert("Solo sonadmitidas letras minusculas y sin acento");
+        textArea.value = textArea.value.toLowerCase();
+    }
+})
