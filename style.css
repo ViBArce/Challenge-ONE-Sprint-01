@@ -14,6 +14,27 @@ header{
     padding-top: 1.5em;
     margin-left: 1em; 
     width: 10%;
+    height: 5%;
+}
+.redessoci{
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 2em;
+    margin-top: 1em;
+    margin-left: 25em;
+    margin-bottom: 1em;
+    width: 10em;
+    box-shadow: 1em .5em .5em #888888;
+}
+.socialgit{
+    padding-top: .8em;
+    margin-left: 1em; 
+    width: 3em;
+}
+.socialtwi{
+    padding-top: .8em;
+    margin-left: 2em; 
+    width: 3.5em;
 }
 main{
     display: flex;
@@ -27,7 +48,7 @@ main{
     color: #0a3871;
     text-transform: lowercase;
     width: 15em;
-    height: auto;
+    height: 13em;
     resize: none;
 }
 .mensaje{
@@ -43,7 +64,7 @@ main{
     padding-left: em;
     position: fixed;
     width: 15em;
-    height: auto;
+    height: 13em;
     resize: none;
     box-shadow: 1em 1em .5em #888888;
 }
@@ -82,7 +103,7 @@ main{
 }
 .copiar{
     position: absolute;
-    margin-top: 17em;
+    margin-top: 15em;
     margin-left: 5em;
 }
 .bnt-copiar{
